@@ -25,6 +25,7 @@ SECRET_KEY = 'django-insecure-g#t_3l5sw2p+$272ld*y$a5k+pab06rk%&g=47-t8_kmumybt_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+#ALLOWED_HOSTS = ['tapas-env.eba-qtefidzq.us-east-1.elasticbeanstalk.com']
 ALLOWED_HOSTS = ['tapas-env.eba-qtefidzq.us-east-1.elasticbeanstalk.com']
 
 
@@ -83,6 +84,7 @@ DATABASES = {
         'HOST': os.environ['RDS_HOSTNAME'],
         'PORT': os.environ['RDS_PORT'],
     }
+    
 }
 
 
@@ -123,6 +125,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
