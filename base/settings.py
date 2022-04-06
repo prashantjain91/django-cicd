@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-g#t_3l5sw2p+$272ld*y$a5k+pab06rk%&g=47-t8_kmumybt_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://tapas-env.eba-qtefidzq.us-east-1.elasticbeanstalk.com/']
+ALLOWED_HOSTS = ['tapas-env.eba-qtefidzq.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
