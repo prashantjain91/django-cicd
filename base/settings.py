@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-g#t_3l5sw2p+$272ld*y$a5k+pab06rk%&g=47-t8_kmumybt_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-#ALLOWED_HOSTS = ['tapas-env.eba-qtefidzq.us-east-1.elasticbeanstalk.com']
 ALLOWED_HOSTS = ['tapas-env.eba-qtefidzq.us-east-1.elasticbeanstalk.com']
+#ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -124,7 +124,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR,'static')
+STATIC_ROOT = os.path.join(BASE_DIR,'static/')
 STATIC_URL = '/static/'
 
 # Default primary key field type
